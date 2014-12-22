@@ -58,7 +58,7 @@ Getting started
 
 - Make sure splunk is not running
 - Open Terminal app
-- Goto `<SPLUNK_ROOT>/etc/apps/splunk-app-aplunkgit`
+- Goto `<SPLUNK_ROOT>/etc/apps/splunk-app-splunkgit`
 - Edit local/splunkgit.conf with a text editor (`open -e local/splunkgit.conf`) and assign the following values:
     - `repo_addresses=` The addresses to the repos, use the read-only address. Ex: `git://github.com/splunk/splunk-app-splunkgit.git`. You can have one or multiple repositories, space separated
     - `user=` Splunk user login so our scripts can search in Splunk
